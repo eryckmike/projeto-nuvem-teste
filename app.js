@@ -3,7 +3,7 @@ const app = express(); // Inicia o Express
 
 // Rota 1: Página Inicial
 app.get("/", function(req, res) {
-    res.send("<h1>Bem vindo à Página Do Banguela!</h1><p>Nova Informação</p>");
+    res.send("<h1>Bem vindo à Página Do Banguela!</h1><p>Nova Informação, ele é preto</p>");
 });
 
 // Rota 2: Sobre
